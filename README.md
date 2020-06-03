@@ -5,25 +5,34 @@ Install Madgraph (no need for Pythia & Delphes) https://twiki.cern.ch/twiki/bin/
 Put ApWW_UFO model (provided by Yiming Zhong, ymzhong@kicp.uchicago.edu) into models folder in Madgraph 
 
 Run 
+```
 $ ./bin/mg5_aMC
-
+```
 To generate Standard Model Background
+```
 $ generate mu+ > e+ e+ e- ve vm~
-
+```
 To generate Ap 
+```
 $ import model ApWW_UFO
 $ generate mu+ > Ap >  e+ e+ e- ve vm~
-
+```
 Show all particles in model
+```
 $ display particles
-
+```
 To see all Standard Model Feynman diagrams with same final state (a is photon in Madgraph syntax)
+```
 $ display diagrams  
-
+```
 Save work/make output folder
+```
 $output mu3e
-
+```
+Start running simulation 
+```
 $ launch mu3e
+```
 shower, detector etc should be set to off by default
 
 Edit run card  to account for stopped muon beam instead of typical pp collision:
