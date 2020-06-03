@@ -1,6 +1,6 @@
 # Instructions for Madgraph simulation for Dark Photon Searches with Mu3e
 
-Install Madgraph (no need for Pythia & Delphes) https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial
+Install Madgraph follwing these instructions (no need for Pythia & Delphes) https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial
 
 Put ApWW_UFO model (provided by Yiming Zhong, ymzhong@kicp.uchicago.edu) into models folder in Madgraph 
 
@@ -46,4 +46,8 @@ After running events, open unweighted_events.lhe. I have included two test files
 Jupyter notebook provided is a starter for making some plots. 
 
 ### Notes on Dark Photon Model (Ap)
-Parameters for model are in models/ApWW_UFO/parameters.py. The important ones are MAp (mass), WAp (width), and GV (coupling to Standard model fermions). 
+Parameters for model are in models/ApWW_UFO/parameters.py. 
+The important ones are: 
+- MAp (mass)
+- WAp (width),
+- GV (coupling of dark photon to Standard model fermions). 
