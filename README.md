@@ -2,7 +2,7 @@
 
 Install Madgraph follwing these instructions (no need for Pythia & Delphes) https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial
 
-Put ApWW_UFO model (provided by Yiming Zhong, ymzhong@kicp.uchicago.edu) into models folder in Madgraph 
+Put ApWW_UFO model (provided by Yiming Zhong, ymzhong@kicp.uchicago.edu) into models folder in Madgraph. This model was used in "Projections for Dark Photon Searches at Mu3e",Bertrand Echenard, Rouven Essig, Yi-Ming Zhong https://arxiv.org/abs/1411.1770 
 
 Run 
 ```
